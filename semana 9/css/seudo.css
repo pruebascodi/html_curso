@@ -1,0 +1,84 @@
+@import url(custom.css);
+header{
+    background-color: var(--color-header);
+    padding: 10px;
+}
+main{
+    background-color: var(--color-fondo);
+
+}
+footer{
+    background-color: var(--color-footer);
+    padding: 10px;
+}
+
+html{
+    font-family: var(--fuente-segundaria);
+    font-size: 19px;
+    
+}
+.nombre{
+    background-image: url(../imagenes/3.jpg);
+    background-size: cover;
+    padding: 30px;
+    color: red;
+}
+ul{
+    /* list-style-type: none;.. es para quitar la lista*/
+    list-style: none;
+
+   /*  display: flex; ... es para acomodar las letras de forma horizontal*/
+   display: flex;
+}
+li{
+    
+    padding: 20px;
+    text-transform: uppercase; /* es para colocar letra mayuscula */
+
+}
+/* li:first-child */
+/* li:last-child */
+/* li:nth-child(odd) impares */
+/* li:nth-child(even) pares*/
+li:nth-child(n+1)
+{
+    background-color: aqua;
+    
+}
+.palabra p:nth-child(even){
+    background-color: aqua;
+    
+    text-shadow: 2px 1px red;
+    font-size: x-large;
+}
+.imagen img{
+    width: 20%;
+    height: 20%;
+    transition: 0.5;
+}
+.imagen img:hover{
+    transform: rotate();
+    border-radius: 50%;
+
+}
+
+/* :focus{
+    outline: 2px solid red;
+} */
+:focus-visible
+{
+    outline: 2px solid aqua;
+   
+}
+
+.focus :focus-within{
+    
+  background-color: yellow;
+  border: 2px solid black;
+    
+
+
+}
+
+
+

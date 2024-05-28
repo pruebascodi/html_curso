@@ -1,0 +1,10 @@
+th,td{
+    border: 1px solid #6200ff;
+    padding: 10px;
+}
+table{
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+}

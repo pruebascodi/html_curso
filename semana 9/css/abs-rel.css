@@ -1,0 +1,62 @@
+@import url(custom.css);
+header{
+  background-color: var(--color-header);
+  padding: 10px;
+}
+main{
+    background-color: var(--color-fondo);
+}
+footer{
+    background-color: var(--color-footer);
+    padding: 10px;
+}
+html{
+    font-family: var(--fuente-secundaria);
+
+    
+    font-size: 19px;
+}
+p{
+    text-align: justify;
+}
+.fondo{
+max-width: 50rem;
+width: 90%;
+margin: 2rem auto;
+}
+.fondo .contenido{
+    background: url(../imagenes/fondo.png);
+    background-size: 100%;
+    width: 100%;
+    padding-top: 60%;
+    position: relative;
+}
+.fondo .contenido .section{
+    width: 30%;
+    height: 13%;
+    border-radius: 20px;
+    position: absolute;
+    border: 0px solid red;
+
+}
+.fondo .contenido .section.primero{top: 38%; left: 10%;}
+.fondo .contenido .section.segundo{top: 19%;left: 34%;}
+.fondo .contenido .section.tercero{top: 71%;left: 63%;}
+.fondo .contenido .section.cuarto{top: 5%;left: 67%; height: 25%;}
+.fondo .contenido .section.quinto{top: 9%;left: 5%;}
+.fondo .contenido .section.sexto{top: 61%;left: 9%; height: 25%;}
+.fondo .contenido .section.septimo{top: 45%;left: 57%;}
+.fondo .contenido .section.octava{top: 86%;left: 42%;}
+.fondo .contenido .section.octava img{width:30%;}
+.fondo .contenido .section:hover{
+    background-color: hsl(180, 100%, 50%,0.5);
+}
+.focus{
+    background-color: blueviolet;
+    color: aqua;
+}
+.focus :focus{
+    background-color: aqua;
+}
+
+

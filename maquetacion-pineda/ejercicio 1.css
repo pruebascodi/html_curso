@@ -1,0 +1,96 @@
+html{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header,footer{
+    background-color:black;
+    width: 100%;
+    height: 100px;
+    margin: 3px o;
+
+}
+
+
+
+.tres{
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 500px;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center
+    
+}
+
+
+.tres .caja1 img{
+    
+    height: 525px;
+    width: 810px;
+    margin: 3px 0;
+    
+}
+.tres .caja3 img{
+    height: 525px;
+    width: 922px;
+    margin: 3px 0;
+}
+  .tres .caja1 p{
+    position: absolute;
+    top: 16%;
+    left: 7%;
+    margin: 3px 0;
+    
+    
+}
+.tres .caja3 p{
+    position: absolute;
+    top: 17%;
+    left: 65%;
+    margin: 3px 0;
+     
+    
+}
+p{
+width: 360px;
+padding: 1px;
+border: 4px solid beige;
+color: black;
+background-color: aliceblue;
+}
+.contenedor {
+    background-color: black;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    width: 102%;
+    height: 79%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contenedor .iniciar{
+ width: 190px;
+padding: 2px;
+border: 3px solid blue;
+color: black;
+background-color: blue;
+}
+ .boton{
+    position: relative;
+    top: 2%;
+    left: 46%;
+    background-color: blue;
+    color: blue;
+    
+}
+
+ .boton2{
+    position: relative;
+    top: 2%;
+    left: 95%;
+}
+
+
+

@@ -1,0 +1,11 @@
+:root{
+    --color-header: hsl(180, 100%, 50%);
+    --color-fondo:hsl(223, 35%, 24%);
+    --color-footer: hsl(180, 100%, 50%);
+    --color-boton:aqua;
+    --fuente-principal :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    --fuente-secundaria:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+

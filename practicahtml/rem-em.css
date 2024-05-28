@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+    font-size: 18px;
+}
+body{
+ font-size: 15px;
+}
+
+header{
+
+    background-color: aqua;
+    height: 200px;
+    color: blue;
+
+}
+
+.cuadro_px{
+    width: 500px;
+    height: 500px;
+    margin: 16px auto;
+    padding: 20px;
+    border: 2px solid red;
+    background-color: bisque;
+    border-radius: 15px;
+    
+}
+.cuadro_REM{
+    width: 28.12rem;
+    height: 28.12rem;
+    margin: 1rem auto;
+    padding: 1.25rem;
+    border: 0,06rem solid blue;
+    background-color: brown;
+    border-radius: 0.93;
+}
+.cuadro_EM{
+width: 28.12em;
+height: 28.12rem;
+margin: 1rem auto;
+padding: 1.25em;
+border: 0,06rem solid blue;
+background-color: brown;
+border-radius: 0.93;
+}
+.cuadro_px p{
+    font-size: ;
+}
+.cuadro_REM p{
+font-size: 1.12rem;
+text-align: justify;
+}
+.cuadro_EM{
+font-size: 1.12em;
+text-align: justify;
+
+}
+h2{
+    font-size: 2rem;
+    color: black;
+}
+h1{
+    font-size: 3em;
+    color: black;
+}
+a{
+    background-color: black;
+    color: antiquewhite;
+    border: 1px solid chartreuse;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: bisque;
+    color: black;
+    padding: 20px;
+}
